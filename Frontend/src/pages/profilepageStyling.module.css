@@ -1,0 +1,6 @@
+.profileIcon{
+    font-size: 40px;
+    color: #29539b;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px #c1c7c7);
+}

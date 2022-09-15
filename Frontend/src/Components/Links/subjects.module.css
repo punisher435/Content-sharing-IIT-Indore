@@ -1,0 +1,56 @@
+.container{
+    border-width: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: initial;
+}
+
+body{
+    background-color: #f5f3f4;
+}
+
+.folderIcon{
+    width: 150px;
+    height: 30%;
+    margin-bottom: 0px;
+    filter: drop-shadow(3px 3px 3px #747979);
+}
+
+.wrapper{
+    margin-bottom: 20px;
+    margin: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.wrapper:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        border-width: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    .folderIcon{
+        width: 120px; 
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .folderIcon{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .wrapper{
+        margin: 0px;
+    }
+}

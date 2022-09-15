@@ -1,0 +1,87 @@
+.clgLogo{
+    width: 120px;
+}
+.carouselContainer1{
+    background-image: url('https://images.unsplash.com/photo-1477586957327-847a0f3f4fe3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amFpcHVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.carouselContainer2{
+    background-image: url('https://home.iitd.ac.in/images/gallery/gallery-lg8.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.carouselContainer3{
+    background-image: url('https://www.enjpg.com/img/2020/cool-pictures-for-57.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.text{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #29539b;
+    font-weight: 500;
+}
+
+.clgname{
+    font-family: "Segoe UI",Arial,sans-serif;
+    color: #29539b;
+    font-weight: 700;
+}
+
+
+.image{
+    background-image: url("https://res.cloudinary.com/djbyqrhy9/image/upload/v1628395371/iitgoa_vang8j.jpg");
+    
+    background-size: cover;
+
+}
+
+
+
+
+.folderIcon{
+    width: 150px;
+    margin-bottom: 0px;
+    filter: drop-shadow(3px 3px 3px #747979);
+}
+
+@media only screen and (max-width: 600px){
+
+    .folderIcon{
+        width: 95px; 
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .folderIcon{
+        width: 100px;
+        
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hoverClass{
+        margin-right: 20px;
+    }
+}
+
+
+.categoryCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hoverClass:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}

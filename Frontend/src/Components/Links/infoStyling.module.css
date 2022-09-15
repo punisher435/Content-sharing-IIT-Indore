@@ -1,0 +1,31 @@
+.folderIcon{
+    width: 150px;
+    margin-bottom: 0px;
+    filter: drop-shadow(3px 3px 3px #747979);
+}
+
+@media only screen and (max-width: 600px){
+
+    .folderIcon{
+        width: 95px; 
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .folderIcon{
+        width: 100px;
+        
+    }
+}
+
+.categoryCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hoverClass:hover{
+    transform: scale(1.05);
+}

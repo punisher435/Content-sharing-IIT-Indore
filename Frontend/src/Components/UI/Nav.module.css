@@ -1,0 +1,23 @@
+@media(max-width:768px){
+    .search{
+        text-align: center;
+    }
+}
+.logo{
+    width: 40px;
+}
+.icon{
+    width: 60px;
+}
+
+.profileIcon{
+    font-size: 40px;
+    color: #29539b;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px 2px #c1c7c7);
+}
+
+.navcolor{
+    background-color: #21487a;
+    
+}

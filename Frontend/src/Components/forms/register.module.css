@@ -1,0 +1,29 @@
+.container{
+    background-color: 	#4169E1;
+    color: white;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    background-image: url('../../Photos/img1.jpg');
+    width: 100%;
+    background-size: cover;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    background-color: 	#ADD8E6;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
